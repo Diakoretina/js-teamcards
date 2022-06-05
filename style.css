@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&family=Playfair+Display:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgCol: #f5f0e8;
+  --textColor: #67615a;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--bgCol);
+  color: var(--textColor);
+}
+/*General*/
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.container-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+/*Card*/
+.card {
+  flex-basis: calc(33% - 32px);
+  margin: 1em;
+  background-color: white;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__body {
+  padding: 16px;
+}
+
+.card__name {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.card__role {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/*Form*/
+.form {
+  width: 50%;
+  margin: 48px auto;
+  text-align: start;
+}
+
+.form__label {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.form__input {
+  width: 100%;
+  outline: none;
+}
+
+.btn {
+  margin-top: 24px;
+  padding: 8px 0;
+  width: 50%;
+}
